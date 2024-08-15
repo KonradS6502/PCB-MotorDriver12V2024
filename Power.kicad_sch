@@ -977,6 +977,25 @@
 		)
 		(uuid "ff3e3006-a283-4fb0-a0de-e0ffd13fd247")
 	)
+	(text_box "Sekcja zasilania (LDO + Kondesatory)"
+		(exclude_from_sim no)
+		(at 119.38 39.37 0)
+		(size 30.48 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ac578d4a-d482-43c0-b675-606d6a6db04b")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 133.35 87.63 0)

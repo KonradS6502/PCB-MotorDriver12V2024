@@ -842,6 +842,44 @@
 		)
 		(uuid "f6eb67f0-631b-4ab1-8155-e3d685c317af")
 	)
+	(text_box "Potencjometr\n\n"
+		(exclude_from_sim no)
+		(at 118.11 35.56 0)
+		(size 20.32 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "16e2a62a-8eba-4c7d-9463-5731747b5379")
+	)
+	(text_box "Złącza do sygnałów + zasilanie"
+		(exclude_from_sim no)
+		(at 24.13 69.85 0)
+		(size 44.45 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f5eacaa8-4f2f-4876-9e92-5fddf4fc8783")
+	)
 	(label "Signal 2"
 		(at 132.08 81.28 0)
 		(fields_autoplaced yes)
@@ -1027,7 +1065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "271f6da7-22a9-44ba-b829-03596a1893d2")
-		(property "Reference" "J4"
+		(property "Reference" "PWR1"
 			(at 40.64 138.4299 0)
 			(effects
 				(font
@@ -1081,7 +1119,7 @@
 		(instances
 			(project "Woj Tek"
 				(path "/99eb6018-140e-4249-b7a3-7c5f4275a21b"
-					(reference "J4")
+					(reference "PWR1")
 					(unit 1)
 				)
 			)
@@ -1097,7 +1135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ffd80d3-65aa-4b76-b416-cc4108aaf7ea")
-		(property "Reference" "J2"
+		(property "Reference" "S1"
 			(at 40.64 100.3299 0)
 			(effects
 				(font
@@ -1151,7 +1189,7 @@
 		(instances
 			(project ""
 				(path "/99eb6018-140e-4249-b7a3-7c5f4275a21b"
-					(reference "J2")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -1167,7 +1205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e40a447-7dd5-4fa6-8680-94a97ac0a6c2")
-		(property "Reference" "J3"
+		(property "Reference" "S2"
 			(at 40.64 115.5699 0)
 			(effects
 				(font
@@ -1221,7 +1259,7 @@
 		(instances
 			(project "Woj Tek"
 				(path "/99eb6018-140e-4249-b7a3-7c5f4275a21b"
-					(reference "J3")
+					(reference "S2")
 					(unit 1)
 				)
 			)
